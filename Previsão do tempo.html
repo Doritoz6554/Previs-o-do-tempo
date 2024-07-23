@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <script src="https://kit.fontawesome.com/5d2bef9980.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family:arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        h1{
+            text-align:center
+        }
+        .weather-card{
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 50px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .city{
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .temperature{
+            font-size: 36px;
+        }
+        .description{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Previsão do Tempo</h1>
+    <div class="weather-card">
+        <div class="city">São Paulo</div>
+        <div class="temperature">28ºC</div>
+        <div class="description">Parcialmente Nublado <i class="fa-solid fa-cloud"></i></div><br>
+    </div>
+    <div class="weather-card">
+        <div class="city">Rio de Janeiro</div>
+        <div class="temperature">31ºC</div>
+        <div class="description">Ensolarado <i class="fa-regular fa-sun" style="color: #FFD43B;"></i></div><br>
+    </div>
+    <div class="weather-card">
+        <div class="city">Salvador</div>
+        <div class="temperature">25ºC</div>
+        <div class="description">Chuva leve <i class="fa-solid fa-cloud-sun-rain"> </i></div>
+    </div>  
+</body>
+</html>
